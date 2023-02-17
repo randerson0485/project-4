@@ -1,0 +1,29 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+   @include btn;
+  }
+  
+  .default {
+    background-color: $color-1;
+  }
+  
+  .error {
+    background-color: $color-2;
+  }
+  
+  .info {
+    background-color: $color-3;
+    ;
+  }
+  
+  .success {
+    background-color: $color-4;
+  }
+  
+  .warning {
+    background-color: $color-5;
+  }
+  

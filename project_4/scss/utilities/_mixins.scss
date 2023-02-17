@@ -1,0 +1,71 @@
+ //buttons
+ @mixin  btn{
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    }
+    
+ //base styles (typography)
+@mixin  universal{
+    font-family: 'Lato', sans-serif;
+    color: #777;
+    box-sizing: border-box;
+
+    p {
+        line-height: 1.45em;
+      }
+
+      a {
+        text-decoration: none;
+      }
+     }
+
+ //typography
+@mixin bq{
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: $px-1;
+    padding-left: $px-1;
+    border-left: 8px solid $head-prim-color;
+    border-radius: 5px;
+}
+
+//forms
+@mixin input{
+  display: block;
+  width: 94%;
+  margin: $px-2 auto 0;
+  border: none;
+  padding: $px-2;
+  border-bottom: 5px solid #58e1c1;
+}
+
+@mixin hidden{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  }
+
+  //grid
+  @mixin col{
+    margin-top: $px-2;
+    flex-basis: $flex-1;
+    min-height: 25px;
+    padding: $px-2;
+    border-radius: 5px;
+  }
+  
+  //images
+  @mixin img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

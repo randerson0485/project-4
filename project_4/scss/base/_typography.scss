@@ -1,0 +1,30 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+   @include universal;
+  }  
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  
+  .headline-primary {
+    color: $head-prim-color;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: 300;
+    color: $head-sec-color;
+  }
+  
+  .link {
+    color: #51ddfc;
+    font-weight: 700;
+  }
+  
+  @include bq;
+  
+  
