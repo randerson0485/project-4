@@ -1,0 +1,23 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+  @include center-it;
+  margin-top: $px-2;
+  max-width: $flex-1; 
+  max-height: $flex-1;
+}
+  
+.img-frame {
+  @include center-it;
+  margin-top: $px-2;
+  max-width: $flex-1;
+  padding: 13px;
+  border: 1px solid #ccc;
+  }
+  
+.img-logo {
+  @include center-it;
+  }
+

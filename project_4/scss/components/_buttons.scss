@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+   @include btn;
+
+  &:hover{
+    background-color:$color-2 lighten($color-2, 15%);
+    transition: all .2s ease-in;
+  }
+}
+  
+  .default {
+    background-color: $color-1;
+  }
+  
+  .error {
+    background-color: $color-2;
+  }
+  
+  .info {
+    background-color: $color-3;
+  }
+  
+  .success {
+    background-color: $color-4;
+  }
+  
+  .warning {
+    background-color: $color-5;
+  }
+  
